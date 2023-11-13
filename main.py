@@ -25,7 +25,7 @@ def main():
 
     text = extract_text_from_pdf(pdf_file)
     write_text_to_word(text, word_file)
-    print("Text extracted from PDF and written to Word successfully!")
+    print("Text extracted from PDF has been written to Word successfully!")
 
 if __name__ == "__main__":
     main()
